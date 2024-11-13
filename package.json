@@ -1,0 +1,37 @@
+{
+  "name": "nestoria",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Nestoria – A customizable photo and comic viewer built with ❤️ to make exploring, organizing, and curating digital collections effortless and enjoyable. Nestoria transforms your digital albums with options to flatten, filter, and personalize your view, bringing a fresh approach to browsing photos, comics, or artwork—all served seamlessly from GitHub Pages. Rediscover the joy of navigating your memories, your way.",
+  "author": "CornerSyrup <65886108+CornerSyrup@users.noreply.github.com> (https://github.com/CornerSyrup)",
+  "license": "MIT",
+  "homepage": "https://github.com/CornerSyrup/Nestoria#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/CornerSyrup/Nestoria.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CornerSyrup/Nestoria/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "@vitejs/plugin-vue": "^5.2.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vite-tsconfig-paths": "^5.1.2",
+    "vue-tsc": "^2.1.10"
+  },
+  "dependencies": {
+    "@vueuse/core": "^11.2.0",
+    "effect": "^3.10.14",
+    "localforage": "^1.10.0",
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5",
+    "yaml": "^2.6.0"
+  }
+}

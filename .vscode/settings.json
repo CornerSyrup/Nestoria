@@ -1,0 +1,6 @@
+{
+  "conventionalCommits.scopes": [],
+  "cSpell.words": ["Nestoria"],
+  "vue.complete.casing.props": "kebab",
+  "vue.complete.casing.tags": "kebab"
+}
